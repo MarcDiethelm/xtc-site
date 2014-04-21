@@ -1,0 +1,14 @@
+{
+  "name": "xtc-site",
+  "version": "0.0.0",
+  "private": true,
+  "repository": "https://github.com/MarcDiethelm/xtc-site.git",
+  "dependencies": {
+    "xtc": "0.8.0-rc1",
+    "generator-xtc": "*"
+  },
+  "bundledDependencies": [
+    "generator-xtc"
+  ],
+  "configPath": "_config/"
+}

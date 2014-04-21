@@ -1,0 +1,13 @@
+{
+  "rcVersion": 0,
+  "xtcVersion": "0.8.0-rc1",
+  "name": "xtc-site",
+  "repositoryUri": null,
+  "repositoryBranch": null,
+  "needServer": true,
+  "needBuild": true,
+  "enableSprites": true,
+  "customModuleTemplatePath": null,
+  "templateExtension": ".hbs",
+  "siteName": "xtc demo"
+}
