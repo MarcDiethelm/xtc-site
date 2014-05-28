@@ -3,9 +3,9 @@
 	//  Default html > head > title is constructed from this
 	"siteName": "xtc demo"
 	//,"allowAuthBypassForIpRanges": true
-	//,"annotateModules": {
-	//	"production": true
-	//}
+	,"annotateModules": {
+		"production": true
+	}
 	//,"enableModuleTesting": true
 	//  To construct links to views, modules and layouts in your repository's web UI ("read-only" https .git URI)
 	,"repository": "https://github.com/MarcDiethelm/xtc-site.git"
