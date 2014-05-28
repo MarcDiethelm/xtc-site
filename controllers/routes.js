@@ -17,6 +17,7 @@ module.exports = function(app) {
 	var index = require('./index')(app);
 
 	app.get('/', index.home);
+	app.get('/structure', index.structure);
 
 	// Example: password protect a route (to set credentials: see _config/config-secret.json)
 	// app.get('/admin', authBasic('admin'), index.admin);

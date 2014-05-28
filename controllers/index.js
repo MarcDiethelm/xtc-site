@@ -12,5 +12,11 @@ module.exports = function(app) {
 		home: function(req, res, next) {
 			res.render('home');
 		}
+
+		,structure: function(req, res, next) {
+			res.render('structure', {
+				docTitle: docTitle('xtc default project structure')
+			});
+		}
 	}
 };
