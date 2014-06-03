@@ -40,6 +40,7 @@
 		}
 
 		,clickToggleContent: function(ev) {
+			ev.preventDefault();
 			this.showAll = !this.showAll;
 			this.toggleContent(this.showAll);
 		}
