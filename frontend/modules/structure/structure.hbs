@@ -1,0 +1,136 @@
+
+
+Hover over underlined files and folders for annotations
+<br>
+<br>
+<br>
+<a href="#" class="link-toggle-content">
+	<span class="more">Show more</span>
+	<span class="less">Show less</span>
+</a>
+<br>
+<br>
+
+{{!-- basic tree generated with `tree --dirsfirst -L 4` --}}
+<section class="mod mod-structure">
+
+<pre class="-ess">project</pre>
+<pre class="-ess">├── <i class="cfg" title="The runtime configuration is built from files contained in here">_config</i></pre>
+<pre class="less">│   <i class="cfg">├── config-build.json</i></pre>
+<pre class="less">│   <i class="cfg">├── <i title="Config schema with defaults. Defines env, arg keys.">config-default.js</i></i></pre>
+<pre class="less">│   <i class="cfg">├── config-local.json</i></pre>
+<pre class="less">│   <i class="cfg">├── config-secret.json</i></pre>
+<pre class="less">│   <i class="cfg">├── config-server.json</i></pre>
+<pre class="less">│   <i class="cfg">├── <i title="Defines configs and merge order">configs.json</i></i></pre>
+<pre class="less">│   <i class="cfg">└── <i title="Pin views on top of list in /xtc">pinned-views.json</i></i></pre>
+<pre class="-ess">├── <i class="ctl" title="Route controllers and view rendering">controllers</i></pre>
+<pre class="less">│   <i class="ctl">├── index.js</i></pre>
+<pre class="less">│   <i class="ctl">└── routes.js</i></pre>
+<pre class="-ess">├── <i class="doc" title="A place to write project documentation in">docs</i></pre>
+<pre class="less">│   <i class="doc">└── <i title="The full documentation for this xtc version">xtc-documentation.md</i></i></pre>
+<pre class="-ess">├── <i class="fe">frontend</i></pre>
+<pre class="-ess">│   <i class="fe">├── <i class="vue" title="Page templates">views</i></i></pre>
+<pre class="-ess">│   <i class="fe">│   <i class="vue">├── <i title="Base templates">layouts</i></i></i></pre>
+<pre class="less">│   <i class="fe">│   <i class="vue">│   └── default.hbs</i></i></pre>
+<pre class="less">│   <i class="fe">│   <i class="vue">├── 404.hbs</i></i></pre>
+<pre class="less">│   <i class="fe">│   <i class="vue">├── grid.hbs</i></i></pre>
+<pre class="-ess">│   <i class="fe">│   <i class="vue">└── home.hbs</i></i></pre>
+<pre class="-ess">│   <i class="fe">├── <i class="inl" title="Bundles assets for inline inclusion">_inline</i></i></pre>
+<pre class="less">│   <i class="fe">│   <i class="inl">├── css</i></i></pre>
+<pre class="less">│   <i class="fe">│   <i class="inl">│   └── lib</i></i></pre>
+<pre class="less">│   <i class="fe">│   <i class="inl">└── js</i></i></pre>
+<pre class="less">│   <i class="fe">│   <i class="inl">    ├── lib</i></i></pre>
+<pre class="less">│   <i class="fe">│   <i class="inl">    └── main.js</i></i></pre>
+<pre class="-ess">│   <i class="fe">├── <i class="bas" title="Code that executes before module parsing">_base</i></i></pre>
+<pre class="less">│   <i class="fe">│   <i class="bas">├── css</i></i></pre>
+<pre class="less">│   <i class="fe">│   <i class="bas">│   ├── lib</i></i></pre>
+<pre class="less">│   <i class="fe">│   <i class="bas">│   ├── sprites</i></i></pre>
+<pre class="less">│   <i class="fe">│   <i class="bas">│   ├── 00-variables.less</i></i></pre>
+<pre class="less">│   <i class="fe">│   <i class="bas">│   ├── 10-webfonts.less</i></i></pre>
+<pre class="less">│   <i class="fe">│   <i class="bas">│   ├── 20-typography.less</i></i></pre>
+<pre class="less">│   <i class="fe">│   <i class="bas">│   ├── 40-layout.less</i></i></pre>
+<pre class="less">│   <i class="fe">│   <i class="bas">│   ├── 42-layout-responsive.less</i></i></pre>
+<pre class="less">│   <i class="fe">│   <i class="bas">│   ├── 60-setup.less</i></i></pre>
+<pre class="less">│   <i class="fe">│   <i class="bas">│   └── 90-styles.less</i></i></pre>
+<pre class="less">│   <i class="fe">│   <i class="bas">└── js</i></i></pre>
+<pre class="less">│   <i class="fe">│   <i class="bas">    ├── lib</i></i></pre>
+<pre class="less">│   <i class="fe">│   <i class="bas">    └── terrific-extensions.js</i></i></pre>
+<pre class="-ess">│   <i class="fe">├── <i class="mod" title="Instantiable, contained frontend modules">modules</i></i></pre>
+<pre class="-ess">│   <i class="fe">│   <i class="mod">├── _page-controller</i></i></pre>
+<pre class="less">│   <i class="fe">│   <i class="mod">│   ├── test</i></i></pre>
+<pre class="less">│   <i class="fe">│   <i class="mod">│   └── page-controller.js</i></i></pre>
+<pre class="-ess">│   <i class="fe">│   <i class="mod">└── example</i></i></pre>
+<pre class="-ess">│   <i class="fe">│   <i class="mod">    ├── skins</i></i></pre>
+<pre class="less">│   <i class="fe">│   <i class="mod">    ├── sprites</i></i></pre>
+<pre class="-ess">│   <i class="fe">│   <i class="mod">    ├── test</i></i></pre>
+<pre class="less">│   <i class="fe">│   <i class="mod">    ├── README.md</i></i></pre>
+<pre class="less">│   <i class="fe">│   <i class="mod">    ├── example-alternate.hbs</i></i></pre>
+<pre class="-ess">│   <i class="fe">│   <i class="mod">    ├── example.hbs</i></i></pre>
+<pre class="-ess">│   <i class="fe">│   <i class="mod">    ├── example.js</i></i></pre>
+<pre class="-ess">│   <i class="fe">│   <i class="mod">    └── example.less</i></i></pre>
+<pre class="-ess">│   <i class="fe">├── <i class="app"><i title="Code to execute after module parsing">_application</i></i></i></pre>
+<pre class="less">│   <i class="fe">│   <i class="app">└── js</i></i></pre>
+<pre class="less">│   <i class="fe">│   <i class="app">    └── 00-terrific-bootstrap.js</i></i></pre>
+<pre class="-ess">│   <i class="fe">└── <i class="pub" title="Webroot">_public</i></i></pre>
+<pre class="-ess">│   <i class="fe">    <i class="pub">├── <i class="bld" title="Development assets build target">build</i></i></i></pre>
+<pre class="less">│   <i class="fe">    <i class="pub">│   <i class="bld">├── external.css</i></i></i></pre>
+<pre class="less">│   <i class="fe">    <i class="pub">│   <i class="bld">├── external.js</i></i></i></pre>
+<pre class="less">│   <i class="fe">    <i class="pub">│   <i class="bld">├── inline.css</i></i></i></pre>
+<pre class="less">│   <i class="fe">    <i class="pub">│   <i class="bld">├── inline.js</i></i></i></pre>
+<pre class="less">│   <i class="fe">    <i class="pub">│   <i class="bld">├── sprites.png</i></i></i></pre>
+<pre class="less">│   <i class="fe">    <i class="pub">│   <i class="bld">├── sprites@2x.png</i></i></i></pre>
+<pre class="less">│   <i class="fe">    <i class="pub">│   <i class="bld">└── test.js</i></i></i></pre>
+<pre class="-ess">│   <i class="fe">    <i class="pub">├── <i class="dst" title="Production assets build target">dist</i></i></i></pre>
+<pre class="less">│   <i class="fe">    <i class="pub">│   <i class="dst">├── external.min.css</i></i></i></pre>
+<pre class="less">│   <i class="fe">    <i class="pub">│   <i class="dst">├── external.min.js</i></i></i></pre>
+<pre class="less">│   <i class="fe">    <i class="pub">│   <i class="dst">├── inline.min.css</i></i></i></pre>
+<pre class="less">│   <i class="fe">    <i class="pub">│   <i class="dst">├── inline.min.js</i></i></i></pre>
+<pre class="less">│   <i class="fe">    <i class="pub">│   <i class="dst">├── sprites.png</i></i></i></pre>
+<pre class="less">│   <i class="fe">    <i class="pub">│   <i class="dst">├── sprites@2x.png</i></i></i></pre>
+<pre class="less">│   <i class="fe">    <i class="pub">│   <i class="dst">└── test.js</i></i></i></pre>
+<pre class="less">│   <i class="fe">    <i class="pub">├── fonts</i></i></pre>
+<pre class="-ess">│   <i class="fe">    <i class="pub">├── img</i></i></pre>
+<pre class="-ess">│   <i class="fe">    <i class="pub">├── lib</i></i></pre>
+<pre class="less">│   <i class="fe">    <i class="pub">│   ├── test</i></i></pre>
+<pre class="less">│   <i class="fe">    <i class="pub">│   └── jquery-1.10.2.js</i></i></pre>
+<pre class="less">│   <i class="fe">    <i class="pub">├── favicon.ico</i></i></pre>
+<pre class="-ess">│   <i class="fe">    <i class="pub">└── favicon.png</i></i></pre>
+<pre class="-ess">├── <i class="lib" title="Custom project modules">lib</i></pre>
+<pre class="less">│   <i class="lib">├── handlebars-helpers.js</i></pre>
+<pre class="less">│   <i class="lib">└── helpers.js</i></pre>
+<pre class="-ess">├── <i class="dep" title="Module dependencies">node_modules</i></pre>
+<pre class="-ess">│   <i class="dep">├── generator-xtc</i></pre>
+<pre class="less">│   <i class="dep">├── hipsum</i></pre>
+<pre class="-ess">│   <i class="dep">└── <i title="Versioned, updateable xtc installation">xtc</i></i></pre>
+<pre class="less">│   <i class="dep">    ├── bin</i></pre>
+<pre class="less">│   <i class="dep">    │   └── setup.js</i></pre>
+<pre class="less">│   <i class="dep">    ├── <i title="Framework routes at /xtc">controllers</i></i></pre>
+<pre class="less">│   <i class="dep">    │   ├── routes-xtc.js</i></pre>
+<pre class="less">│   <i class="dep">    │   └── xtc.js</i></pre>
+<pre class="less">│   <i class="dep">    ├── lib</i></pre>
+<pre class="less">│   <i class="dep">    │   ├── <i title="Runtime configuration creation">configure.js</i></i></pre>
+<pre class="less">│   <i class="dep">    │   ├── <i title="Default template helpers">handlebars-helpers-xtc.js</i></i></pre>
+<pre class="less">│   <i class="dep">    │   ├── helpers.js</i></pre>
+<pre class="less">│   <i class="dep">    │   ├── <i title="`mod` template helper">mod-helper.js</i></i></pre>
+<pre class="less">│   <i class="dep">    │   ├── <i title="Frontend module rendering">mod-render.js</i></i></pre>
+<pre class="less">│   <i class="dep">    │   ├── multiple-view-dirs.js</i></pre>
+<pre class="less">│   <i class="dep">    │   ├── overview.js</i></pre>
+<pre class="less">│   <i class="dep">    │   ├── utils.js</i></pre>
+<pre class="less">│   <i class="dep">    │   └── validator.js</i></pre>
+<pre class="less">│   <i class="dep">    ├── node_modules</i></pre>
+<pre class="less">│   <i class="dep">    ├── test</i></pre>
+<pre class="less">│   <i class="dep">    ├── <i title="Framework views mounted at /xtc">views</i></i></pre>
+<pre class="less">│   <i class="dep">    │   ├── <i title="Generated project overview view">overview.hbs</i></i></pre>
+<pre class="less">│   <i class="dep">    │   └── test-modules.hbs</i></pre>
+<pre class="less">│   <i class="dep">    ├── CHANGELOG.md</i></pre>
+<pre class="less">│   <i class="dep">    ├── Documentation.md</i></pre>
+<pre class="less">│   <i class="dep">    ├── LICENSE-MIT</i></pre>
+<pre class="less">│   <i class="dep">    ├── README.md</i></pre>
+<pre class="less">│   <i class="dep">    ├── package.json</i></pre>
+<pre class="less">│   <i class="dep">    └── server.js</i></pre>
+<pre class="-ess">├── <i title="Build entry point, build setup">Gruntfile.js</i></pre>
+<pre class="less">├── README.md</pre>
+<pre class="-ess">├── <i title="Defines project meta information, dependencies">package.json</i></pre>
+<pre class="-ess">├── <i title="Server entry point, server setup">server.js</i></pre>
+<pre class="-ess">└── <i title="CLI tool info store">xtcfile.json</i></pre>
+</section>
